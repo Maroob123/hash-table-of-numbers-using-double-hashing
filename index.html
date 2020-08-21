@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    <script src="jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(window).on('load', function() {
+          $('.preloader').addClass('complete')
+      })
+    </script>
+    <title>Double hashing</title>
+</head>
+<center><body>
+  <div class="preloader">
+    <img src="images/loading.gif" class="loader" alt="" style="width: 800px;height: 600px;">
+
+</div>
+        <div class="input-field">
+          <input type="number" id="name" required />
+          <label for="name">Your id:</label>
+          <br><br>
+          <img src="images/add-button0.png" alt="add-button" class="button" onclick="ins()" title="Add Element">&nbsp;&nbsp;&nbsp;
+          <img src="images/delete-button.png" alt="delete-button" class="button" onclick="del()" title="Delete Element">&nbsp;&nbsp;&nbsp;
+          <img src="images/search-button.png" alt="search-button" class="button" onclick="sear()" title="Search Element">&nbsp;&nbsp;&nbsp;
+        </div>
+      <br>
+      <p></p>
+      <br>
+      <br>
+      <br>
+      <table>
+        <tr>
+          <td>Row 0</td>
+          <td id="box0"></td>
+        </tr>
+        <tr>
+          <td>Row 1</td>
+          <td id="box1"></td>
+        </tr>
+        <tr>
+          <td>Row 2</td>
+          <td id="box2"></td>
+        </tr>
+        <tr>
+          <td>Row 3</td>
+          <td id="box3"></td>
+        </tr>
+        <tr>
+          <td>Row 4</td>
+          <td id="box4"></td>
+        </tr>
+        <tr>
+          <td>Row 5</td>
+          <td id="box5"></td>
+        </tr>
+        <tr>
+          <td>Row 6</td>
+          <td id="box6"></td>
+        </tr>
+        <tr>
+          <td>Row 7</td>
+          <td id="box7"></td>
+        </tr>
+        <tr>
+          <td>Row 8</td>
+          <td id="box8"></td>
+        </tr>
+        <tr>
+          <td>Row 9</td>
+          <td id="box9"></td>
+        </tr>
+      </table>
+      <br><br>
+      <p>&copy; 2020-21 Designed and Developed by Syed Muhammad Maroob</p>
+</body>
+</center>
+<script src="app.js"></script>
+</html>
